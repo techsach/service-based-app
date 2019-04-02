@@ -1,4 +1,11 @@
-# ServiceBasedApp
+# Service Based App
+
+This is an example angular application which shows how to use a service in your angular application. The service used in this application returns local data cached in its instance.
+
+This app contains,
+1. app.module - root module of the application
+1. app.component - root component of the application
+1. user.service - a very simple service which returns locally cached data
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
 
