@@ -5,9 +5,10 @@ import { Injectable } from '@angular/core';
 })
 export class UsersService {
 
+  // cached users
   private users = [
-    {name: 'Bhushan Bosco', email: 'bbb@bbb.com'},
-    {name: 'Gulshan Gosco', email: 'ggg@ggg.com'}
+    {name: 'Bublon Bosco', email: 'bbb@bbb.com'},
+    {name: 'Guglon Gosco', email: 'ggg@ggg.com'}
   ];
 
   constructor() { }
